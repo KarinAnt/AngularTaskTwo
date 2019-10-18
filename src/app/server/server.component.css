@@ -1,0 +1,37 @@
+.inputs{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid silver;
+    margin:5px 0;
+}
+label{
+    font-weight: bold;
+}
+.buttons{
+    color:white;
+    font-size: 18px;
+    padding:5px 10px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid;
+}
+.but1{
+    background-color: darkslategray;
+}
+.but2{
+    background-color: darkcyan;
+}
+.servers{
+    width: 80%;
+    border:1px solid silver;
+    margin-top:5px;
+    border-radius: 5px;
+}
+.servername{
+    background-color: silver;
+}
+.italic{
+    font-style: italic;
+}

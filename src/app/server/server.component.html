@@ -1,0 +1,14 @@
+<div>
+    <label for="">Server Name</label><br>
+    <input type="text" [(ngModel)] = "serverName" class="inputs">
+</div>
+<div>
+    <label for="">Server Content</label><br>
+    <input type="text" [(ngModel)] = "serverContent" class="inputs">
+</div>
+<button (click)="addServer()" class="but1 buttons">Add Server</button>
+<button (click)="addBlueServer()" class="but2 buttons">Add Server Blueprint</button>
+<div *ngFor="let serv of servers" class="servers">
+    <p class="servername">{{serv.name}}</p>
+    <p [ngStyle]="{'color':serv.color}" [ngClass]="{'italic': serv.color === 'blue'}">{{serv.content}}</p>
+</div>
